@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced usage on Peertube plugin livechat documentation</title>
+    <link>http://localhost:1313/peertube-plugin-livechat/documentation/admin/advanced/</link>
+    <description>Recent content in Advanced usage on Peertube plugin livechat documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/peertube-plugin-livechat/documentation/admin/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XMPP clients</title>
+      <link>http://localhost:1313/peertube-plugin-livechat/documentation/admin/advanced/xmpp_clients/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/peertube-plugin-livechat/documentation/admin/advanced/xmpp_clients/</guid>
+      <description> This page is not written yet. It should explain how you can connect with XMPP clients.
+ For now you can&amp;rsquo;t connect to your Peertube chat account using a XMPP client. This feature could be added one day, depending on the interest about it.
+ </description>
+    </item>
+    
+    <item>
+      <title>Using Matterbridge</title>
+      <link>http://localhost:1313/peertube-plugin-livechat/documentation/admin/advanced/matterbridge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/peertube-plugin-livechat/documentation/admin/advanced/matterbridge/</guid>
+      <description>Here is a tutorial to use Matterbridge with the plugin: https://gitlab.com/refrac/obs-matterbridge-overlay/-/blob/master/documentation/peertube.md</description>
+    </item>
+    
+  </channel>
+</rss>

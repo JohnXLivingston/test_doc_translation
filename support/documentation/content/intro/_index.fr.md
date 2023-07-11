@@ -1,20 +1,15 @@
-+++
-title="Introduction"
-description="Introduction"
-weight=5
-chapter=false
++++ title="Introduction" description="Introduction" weight=5 chapter=false
 +++
 
-Ce plugin pour [Peertube](https://joinpeertube.org/) permet d'intégrer un système de «chat» (clavardage) à coté des vidéos.
+This [Peertube](https://joinpeertube.org/) plugin is meant to provide chat
+system for Peertube videos.
 
-{{% notice tip %}}
-Vous pouvez utiliser le sélecteur de langue dans le menu de gauche pour afficher cette documentation dans différentes langues.
-{{% /notice %}}
+| | | |---|---| | ![Chat
+screenshot](/peertube-plugin-livechat/images/chat.png?classes=shadow,border&height=200px)
+| ![Fullscreen chat
+screenshot](/peertube-plugin-livechat/images/fullscreen.png?classes=shadow,border&height=200px)
+|
 
-| | |
-|---|---|
-| ![capture d'écran du tchat](/peertube-plugin-livechat/images/chat.png?classes=shadow,border&height=200px) | ![capture d'écran du tchat en plein écran](/peertube-plugin-livechat/images/fullscreen.png?classes=shadow,border&height=200px) |
-
-{{% notice tip %}}
-Voir une [démo](https://www.yiny.org/w/399a8d13-d4cf-4ef2-b843-98530a8ccbae).
-{{% /notice %}}
+{{% notice tip %}} See a
+[demo](https://www.yiny.org/w/399a8d13-d4cf-4ef2-b843-98530a8ccbae).  {{%
+/notice %}}

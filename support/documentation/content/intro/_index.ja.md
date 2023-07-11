@@ -1,20 +1,15 @@
-+++
-title="はじめに"
-description="はじめに"
-weight=5
-chapter=false
++++ title="Introduction" description="Introduction" weight=5 chapter=false
 +++
 
-この[Peertube](https://joinpeertube.org/)プラグインは、お使いのPeerTubeインスタンスの動画に対してチャットシステムを提供します。
+This [Peertube](https://joinpeertube.org/) plugin is meant to provide chat
+system for Peertube videos.
 
-{{% notice tip %}}
-左側のメニューにある言語セレクターを使って、このドキュメントをさまざまな言語で表示することができます。
-{{% /notice %}}
+| | | |---|---| | ![Chat
+screenshot](/peertube-plugin-livechat/images/chat.png?classes=shadow,border&height=200px)
+| ![Fullscreen chat
+screenshot](/peertube-plugin-livechat/images/fullscreen.png?classes=shadow,border&height=200px)
+|
 
-| | |
-|---|---|
-| ![チャット画面のスクリーンショット](/peertube-plugin-livechat/images/chat.png?classes=shadow,border&height=200px) | ![チャット画面のスクリーンショットを全画面で表示する](/peertube-plugin-livechat/images/fullscreen.png?classes=shadow,border&height=200px) |
-
-{{% notice tip %}}
-実際の動きを[デモ](https://www.yiny.org/w/399a8d13-d4cf-4ef2-b843-98530a8ccbae)でご確認頂けます。
-{{% /notice %}}
+{{% notice tip %}} See a
+[demo](https://www.yiny.org/w/399a8d13-d4cf-4ef2-b843-98530a8ccbae).  {{%
+/notice %}}

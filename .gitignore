@@ -1,0 +1,4 @@
+support/documentation/content/[a-z][a-z]/*.md
+support/documentation/content/[a-z][a-z][a-z]/*.md
+support/documentation/content/[a-z][a-z][a-z]_[A-Z]*/*.md
+support/documentation/content/[a-z][a-z]_[A-Z]*/*.md

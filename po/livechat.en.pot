@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-07-12 09:57+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#: support/documentation/content/en/_index.md
+#, markdown-text, no-wrap
+msgid "PeerTube plugin livechat"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/_index.md
+#, markdown-text, no-wrap
+msgid "You can use the language selector in the left menu to view this documentation in different languages.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/_index.md
+#, markdown-text, no-wrap
+msgid "Before updating to a major release, please read the release notes and breaking changes list : [CHANGELOG](https://github.com/JohnXLivingston/peertube-plugin-livechat/blob/main/CHANGELOG.md).\n"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: description
+#: support/documentation/content/en/tests/_index.md
+#, no-wrap
+msgid "This page test various markdown formats."
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: support/documentation/content/en/tests/_index.md
+#, no-wrap
+msgid "Test page"
+msgstr ""
+
+#. type: Title ##
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Intro"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "This [Peertube](https://joinpeertube.org/) plugin is meant to provide chat system for Peertube videos.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid ""
+"| | |\n"
+"|---|---|\n"
+"| ![Chat screenshot](/peertube-plugin-livechat/images/chat.png?classes=shadow,border&height=200px) | ![Fullscreen chat screenshot](/peertube-plugin-livechat/images/fullscreen.png?classes=shadow,border&height=200px) |\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "See a [demo](https://www.yiny.org/w/399a8d13-d4cf-4ef2-b843-98530a8ccbae).\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "This is a warning notice.\n"
+msgstr ""
+
+#. type: Title ##
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Various"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "If you have any question, or if you want to talk about this plugin, you can join this XMPP room with any Jabber client: [plugin-livechat-support@room.im.yiny.org](xmpp:plugin-livechat-support@room.im.yiny.org?join).\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "If you want to support the project financially, you can contact me by mail at git.[at].john-livingston.fr, or check my [Liberapay profile](https://liberapay.com/JohnLivingston/).\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "To clone the repository:\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: support/documentation/content/en/tests/_index.md
+#, no-wrap
+msgid ""
+"# Clone the repository\n"
+"git clone https://github.com/JohnXLivingston/peertube-plugin-livechat.git\n"
+"# Be sure to checkout the main branch\n"
+"git checkout main\n"
+"# Initialize the submodules. This command must be run again if any submodules' version changes.\n"
+"git submodule update --init --recursive\n"
+"\n"
+"# Install NPM dependencies and build the module for the first time:\n"
+"npm install\n"
+"\n"
+"# Build the plugin after a modification:\n"
+"npm run build\n"
+"\n"
+"# If you have a fork from the repository, add it as remote (example):\n"
+"git remote add me git@github.com:MY_GITHUB_ACCOUNT/peertube-plugin-livechat.git\n"
+"\n"
+"# Create a local branch for you developments, and checkout it (example):\n"
+"git checkout my_development # Note: if an issue is associated, use fix_1234 as your branch name (where 1234 is the issue's number)\n"
+"# To propose your modifications, push your branch to your repository (example):\n"
+"git push --set-upstream me my_development\n"
+"# Then go to your github repository with your web browser to propose the Pull Request (see additional instructions below)\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: support/documentation/content/en/tests/_index.md
+#, no-wrap
+msgid "NODE_ENV=dev npm run build\n"
+msgstr ""
+
+#. type: Title ##
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "ESBuild vs Typescript"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid ""
+"This plugin uses ESBuild for frontend code generation, as the official `peertube-plugin-quickstart` plugin.\n"
+"ESBuild can handle Typescript, but does not check types (see [ESBuild documentation](https://esbuild.github.io/content-types/#typescript)).\n"
+"That's why we first compile Typescript with the `-noEmit` option, just to check types (`check:client:ts` in package.json file).\n"
+"Then, if everything is okay, we run ESBuild to generate the compiled javascript.\n"
+msgstr ""
+
+#. type: Title ##
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Translations"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "The principal language is english (`en` code).\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid ""
+"The different translations of the same file are side by side in the tree, and are identified by a language code in the file name extension.\n"
+"Example: `_index.fr.md` is the French translation of `_index.en.md`.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Please note that a missing translation file will not appear in the menus of the generated site.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "**Always make sure to create files for all languages**, even if the translation is not yet available.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid ""
+"For this, there is a script `doc-generate-missing-translations.sh` in the root of the repository. When you add a new file, you just have to create the english version, then run this script.\n"
+"It will create all  missing translations, putting a sample message inviting the user to read the english version.\n"
+msgstr ""
+
+#. type: Title ##
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Credits"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid ""
+"[package.json](https://github.com/JohnXLivingston/peertube-plugin-livechat/blob/main/package.json),\n"
+"[COPYRIGHT](https://github.com/JohnXLivingston/peertube-plugin-livechat/blob/main/COPYRIGHT.md)\n"
+"and [LICENSE](https://github.com/JohnXLivingston/peertube-plugin-livechat/blob/main/LICENSE)\n"
+"files contain the license information for this software and its dependencies.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "The plugin is maintained by [John Livingston](https://www.john-livingston.fr/).\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid ""
+"Thanks to David Revoy for his work on Peertube's mascot, [Sepia](https://www.davidrevoy.com/index.php?tag/peertube).\n"
+"The character design is under CC-By licence, and the SVG files used to create some logo and avatars in this plugin are GPLv3.0.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Thanks to [Framasoft](https://framasoft.org) for making [Peertube](https://joinpeertube.org/) possible, for the financial support, and for hosting the project translations on their [Weblate instance](https://weblate.framasoft.org).\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Thanks to [ritimo](https://www.ritimo.org/) for the financial support.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Thanks to [Code Lutin](https://www.codelutin.com/) and [Rétribution Copie Publique](https://copiepublique.fr/) for the financial support.\n"
+msgstr ""
+
+#. type: Plain text
+#: support/documentation/content/en/tests/_index.md
+#, markdown-text, no-wrap
+msgid "Thanks to [NlNet](https://nlnet.nl/) and the [NGI0 Entrust fund](https://nlnet.nl/entrust/) for the financial support.\n"
+msgstr ""
